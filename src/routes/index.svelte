@@ -32,7 +32,9 @@
   }
 </style>
 
+<label>Ancho (cms):</label>
 <input class="input" bind:value={height} placeholder={'Alto'} type="number" />
+<label>Alto (cms):</label>
 <input class="input" bind:value={width} placeholder={'Ancho'} type="number" />
 <select class="input" bind:value={system}>
   {#each availableSystems as currentSystem}
